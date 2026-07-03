@@ -1,0 +1,29 @@
+# Core dependencies
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+sqlalchemy
+fastapi
+uvicorn
+mlflow
+dvc
+jupyter
+plotly
+dash
+# Additional ML libraries
+xgboost
+lightgbm
+statsmodels
+# Database
+psycopg2-binary
+pymongo
+redis
+# API & Web
+python-multipart
+python-jose
+passlib
+# Testing
+pytest
+pytest-cov

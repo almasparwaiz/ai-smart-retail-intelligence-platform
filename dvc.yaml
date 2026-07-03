@@ -1,0 +1,15 @@
+stages:
+  data_cleaning:
+    cmd: python scripts/run_pipeline.py
+    deps:
+      - src/data_cleaning/cleaner.py
+      - data/raw
+    outs:
+      - data/processed
+
+  feature_engineering:
+    cmd: python src/feature_engineering/creator.py
+    deps:
+      - data/processed
+    outs:
+      - data/features
